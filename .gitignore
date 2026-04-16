@@ -5,6 +5,12 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+# 설정 파일 제외
+src/main/resources/application.properties
+
+# (선택 사항) 만약 yml 파일을 쓴다면
+src/main/resources/application.yml
+
 ### STS ###
 .apt_generated
 .classpath
